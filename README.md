@@ -1,6 +1,12 @@
 # Lightn1ng0_AI_Aimbot
 Lightn1ng0's custom code for the rootkit launcher.
+
 ![Preview](preview.png)
+
+This custom code aimbot will load the settings and configuration from the launcher.
+The code has all features from the launcher + more. Except for the fov circle.
+The code uses the model files from the launcher.
+
 ## Features
 ### Tier 0 (free)
 - Everything that is free from the launcher
