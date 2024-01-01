@@ -1,11 +1,13 @@
 # Lightn1ng0_AI_Aimbot
 Lightn1ng0's custom code for the rootkit launcher.
+The point of this code is being able to change settings and swap models without restarting anything.
 
 ![Preview](preview.png)
 
 This custom code aimbot will load the settings and configuration from the launcher.  
 The code has all features from the launcher + more. Except for the fov circle.  
 The code uses the model files from the launcher.  
+Install razer synapse 3 with the macro module if you want to use the razer input method.  
 
 ## Features
 ### Tier 0 (free)
@@ -25,7 +27,7 @@ The code uses the model files from the launcher.
 - Overlay
 - Max move speed
 - Keybind configurator
-- Mouse input methods
+- Mouse input methods (default is win32api, razer)
   
 ## Issues
 - Converting model to onnx on amd or cpu does not work --> use the launcher to do this
