@@ -1,5 +1,5 @@
 # Lightn1ng0_AI_Aimbot
-Lightn1ng0's custom code for the rootkit launcher.  
+Lightn1ng0's custom code for the [rootkit launcher](https://github.com/RootKit-Org/Launcher).  
 The point of this code is being able to change settings and swap models without restarting anything.
 
 ![Preview](preview.png)
