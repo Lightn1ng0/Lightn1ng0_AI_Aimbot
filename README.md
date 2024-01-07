@@ -7,7 +7,6 @@ The point of this code is being able to change settings and swap models without 
 This custom code aimbot will load the settings and configuration from the launcher.  
 The code has all features from the launcher + more. Except for the fov circle.  
 The code uses the model files from the launcher.  
-Install razer synapse 3 with the macro module if you want to use the razer input method.  
 The code does not modify the launcher config.
 
 ## Features
@@ -29,7 +28,15 @@ The code does not modify the launcher config.
 - Max move speed
 - Keybind configurator
 - Mouse input methods (default is win32api, razer)
-  
+
+## Razer support (Tier 2 or higher only)
+- Works only if you have a razer mouse plugged in your computer
+- You need to install razer synapse 3 with the macro module https://www.razer.com/synapse-3
+- Download this dll file and move it to %appdata%/ai-aimbot-launcher/customCode/Lightn1ng0_AI_Aimbot/rzctl_lib --> https://github.com/0736b/rzctl-py/raw/main/rzctl_lib/rzctl.dll
+- The dll file should be safe but use at your OWN risk!
+- Credits to https://github.com/0736b/rzctl-py/tree/main for the driver
+![Razer](razer.png)
+
 ## Issues
 - Converting model to onnx on amd or cpu does not work --> use the launcher to do this
 - Fov circle not implemented
