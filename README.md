@@ -35,6 +35,7 @@ The code does not modify the launcher config.
 - Download this dll file and move it to %appdata%/ai-aimbot-launcher/customCode/Lightn1ng0_AI_Aimbot/rzctl_lib --> https://github.com/0736b/rzctl-py/raw/main/rzctl_lib/rzctl.dll
 - The dll file should be safe but use at your OWN risk!
 - Credits to https://github.com/0736b/rzctl-py/tree/main for the driver
+
 ![Razer](razer.png)
 
 ## Issues
