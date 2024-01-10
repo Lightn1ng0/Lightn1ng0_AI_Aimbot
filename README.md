@@ -24,7 +24,7 @@ The code does not modify the launcher config.
 - Hot swapping yolo version
 - Hot swapping screenshot size
 - Recoil control
-- Overlay
+- Overlay (testing purposes --> overlay causes detection issues)
 - Max move speed
 - Keybind configurator
 - Mouse input methods (default is win32api, razer)
