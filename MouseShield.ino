@@ -69,7 +69,7 @@ MouseRptParser MousePrs;
 void setup()
 {
   Mouse.begin();
-  Serial.begin( 115200 );
+  Serial.begin( 9600 );
   Usb.Init();
   HidComposite.SetReportParser(1, &MousePrs);
   HidMouse.SetReportParser(0, &MousePrs);
