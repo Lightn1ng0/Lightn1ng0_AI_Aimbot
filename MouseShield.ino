@@ -109,7 +109,6 @@ void loop()
     Serial.println(data);
 
     // DeltaX, DeltaY, and Click
-    int delta[2];
     delta[0] = data.substring(0, ohHiMarc).toInt();
     data = data.substring(ohHiMarc + 1);
     ohHiMarc = data.indexOf(':');
