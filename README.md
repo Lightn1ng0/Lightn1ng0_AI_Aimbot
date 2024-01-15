@@ -40,7 +40,7 @@ The code does not modify the launcher config.
 
 ## Arduino leonardo support (Tier 2 or higher only)
 - Watch this video on how to setup the arduino leonardo with usb host shield https://www.youtube.com/watch?v=NlUyUGYHMAc
-- You can use any arduino that support the mouse library
+- You can use any arduino that supports the mouse library
 - You can probably also use other arduinos that are compatible with an usb host shield and have compatibility with mouse library
 - Arduino with shield is safer since the game will only see 1 mouse instead of 2
 - Download and flash MouseShield.ino or Mouse.ino file to arduino depending if you have a shield or not
