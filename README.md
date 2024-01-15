@@ -38,7 +38,7 @@ The code does not modify the launcher config.
 
 ![Razer](razer.png)
 
-## Arduino leonardo support (Tier 2 or higher only)
+## Arduino support (Tier 2 or higher only)
 - Watch this video on how to setup the arduino leonardo with usb host shield https://www.youtube.com/watch?v=NlUyUGYHMAc
 - You can use any arduino that supports the mouse library
 - You can probably also use other arduinos that are compatible with an usb host shield and have compatibility with mouse library
