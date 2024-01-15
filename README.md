@@ -40,7 +40,7 @@ The code does not modify the launcher config.
 
 ## Arduino leonardo support (Tier 2 or higher only)
 - Watch this video on how to setup the arduino leonardo with usb host shield https://www.youtube.com/watch?v=NlUyUGYHMAc
-- Download and flash ino file to arduino from repo below
+- Download and flash Mouse.ino file to arduino
 - Select the correct com port in the gui
 - Credits to https://github.com/TrevorSatori/Leonardo/tree/main
 
