@@ -1,5 +1,8 @@
 #include <Mouse.h>
 
+int negMax = -127;
+int posMax = 127;
+
 void setup() {
   Serial.begin(9600);
   Mouse.begin();
