@@ -41,7 +41,9 @@ The code does not modify the launcher config.
 ## Arduino leonardo support (Tier 2 or higher only)
 - Watch this video on how to setup the arduino leonardo with usb host shield https://www.youtube.com/watch?v=NlUyUGYHMAc
 - Download and flash Mouse.ino file to arduino
-- Select the correct com port in the gui
+- Automatically configures com port when arduino is plugged in while launching
+- You can still manually configure the com port from the gui
+- You can test your arduino with test_arduino.py
 - Credits to https://github.com/TrevorSatori/Leonardo/tree/main
 
 ## Issues
