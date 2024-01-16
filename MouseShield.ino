@@ -99,28 +99,25 @@ void loop()
     Mouse.press(MOUSE_MIDDLE);
   }
 
-  if (Serial.available() > 0)
-  {
+  if (Serial.available() > 0) {
     // Read Data
     String data = Serial.readStringUntil('x');
 
     // Gets demarcation between deltaX, DeltaY, and Click
-    int ohHiMarc = data.indexOf(':');
-    Serial.println(data);
+    int deltaXIndex = data.indexOf(':');
+    int deltaYIndex = data.indexOf(':', deltaXIndex + 1);
 
-    // DeltaX, DeltaY, and Click
-    delta[0] = data.substring(0, ohHiMarc).toInt();
-    data = data.substring(ohHiMarc + 1);
-    ohHiMarc = data.indexOf(':');
-    delta[1] = data.substring(0, ohHiMarc).toInt();
-    int click = data.substring(ohHiMarc + 1).toInt();
+    // Extract DeltaX, DeltaY, and Click
+    int delta[2];
+    delta[0] = data.substring(0, deltaXIndex).toInt();
+    delta[1] = data.substring(deltaXIndex + 1, deltaYIndex).toInt();
+    int click = data.substring(deltaYIndex + 1).toInt();
 
     handleX(delta[0]);
     handleY(delta[1]);
 
-    if (click == 1)
-    {
-      Mouse.press(MOUSE_LEFT);
+    if (click == 1) {
+      Mouse.click(MOUSE_LEFT);
     }
   } else{
     Mouse.move(delta[0], delta[1]);
