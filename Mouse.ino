@@ -9,29 +9,23 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available() > 0)
-  {
-    // Read Data
+  if (Serial.available() > 0) {
     String data = Serial.readStringUntil('x');
+    String parts[3];
+    int numParts = data.split(':', parts, 3);
 
-    // Gets demarcation between deltaX, DeltaY, and Click
-    int ohHiMarc = data.indexOf(':');
-    Serial.println(data);
+    if (numParts == 3) {
+      int delta[2];
+      delta[0] = parts[0].toInt();
+      delta[1] = parts[1].toInt();
+      int click = parts[2].toInt();
 
-    // DeltaX, DeltaY, and Click
-    int delta[2];
-    delta[0] = data.substring(0, ohHiMarc).toInt();
-    data = data.substring(ohHiMarc + 1);
-    ohHiMarc = data.indexOf(':');
-    delta[1] = data.substring(0, ohHiMarc).toInt();
-    int click = data.substring(ohHiMarc + 1).toInt();
+      handleX(delta[0]);
+      handleY(delta[1]);
 
-    handleX(delta[0]);
-    handleY(delta[1]);
-
-    if (click == 1)
-    {
-      Mouse.press(MOUSE_LEFT);
+      if (click == 1) {
+        Mouse.press(MOUSE_LEFT);
+      }
     }
   }
 }
