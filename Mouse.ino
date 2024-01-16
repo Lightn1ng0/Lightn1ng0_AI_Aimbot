@@ -27,7 +27,7 @@ void loop() {
     handleY(delta[1]);
 
     if (click == 1) {
-      Mouse.press(MOUSE_LEFT);
+      Mouse.click(MOUSE_LEFT);
     }
   }
 }
