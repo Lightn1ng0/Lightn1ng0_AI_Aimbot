@@ -10,24 +10,25 @@ void setup() {
 
 void loop() {
   if (Serial.available() > 0) {
+    // Read Data
     String data = Serial.readStringUntil('x');
-    String parts[3];
-    int numParts = data.split(':', parts, 3);
 
-    if (numParts == 3) {
-      int delta[2];
-      delta[0] = parts[0].toInt();
-      delta[1] = parts[1].toInt();
-      int click = parts[2].toInt();
+    // Gets demarcation between deltaX, DeltaY, and Click
+    int deltaXIndex = data.indexOf(':');
+    int deltaYIndex = data.indexOf(':', deltaXIndex + 1);
 
-      handleX(delta[0]);
-      handleY(delta[1]);
+    // Extract DeltaX, DeltaY, and Click
+    int delta[2];
+    delta[0] = data.substring(0, deltaXIndex).toInt();
+    delta[1] = data.substring(deltaXIndex + 1, deltaYIndex).toInt();
+    int click = data.substring(deltaYIndex + 1).toInt();
 
-      if (click == 1) {
-        Mouse.press(MOUSE_LEFT);
-      }
+    handleX(delta[0]);
+    handleY(delta[1]);
+
+    if (click == 1) {
+      Mouse.press(MOUSE_LEFT);
     }
-  }
 }
 
 // Handle Moving of x 
