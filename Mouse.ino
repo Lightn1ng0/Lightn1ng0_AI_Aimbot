@@ -29,6 +29,7 @@ void loop() {
     if (click == 1) {
       Mouse.press(MOUSE_LEFT);
     }
+  }
 }
 
 // Handle Moving of x 
