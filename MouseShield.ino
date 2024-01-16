@@ -117,7 +117,7 @@ void loop()
     handleY(delta[1]);
 
     if (click == 1) {
-      Mouse.click(MOUSE_LEFT);
+      Mouse.click();
     }
   } else{
     Mouse.move(delta[0], delta[1]);
