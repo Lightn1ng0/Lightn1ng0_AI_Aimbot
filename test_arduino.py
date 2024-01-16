@@ -14,4 +14,4 @@ while True:
 
     time.sleep(4)
 
-    arduino.write("{}:{}:{}x".format(mouse_move_x, mouse_move_y, 1).encode())
+    arduino.write("{}:{}:{}x".format(mouse_move_x, mouse_move_y, mouse_click).encode())
