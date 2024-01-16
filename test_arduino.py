@@ -2,11 +2,7 @@ import serial.tools.list_ports
 import serial
 import time
 
-arduino = None
-ports = list(serial.tools.list_ports.comports())
-for port in ports:
-    if "Arduino" in port.description:
-        arduino = serial.Serial(port, 9600, timeout=1)
+arduino = serial.Serial("COM6", 9600, timeout=1)
 
 while True:
     print("Mouse move X:")
