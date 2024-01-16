@@ -23,11 +23,13 @@ void loop() {
     delta[1] = data.substring(deltaXIndex + 1, deltaYIndex).toInt();
     int click = data.substring(deltaYIndex + 1).toInt();
 
+    Serial.println(click);
+      
     handleX(delta[0]);
     handleY(delta[1]);
 
     if (click == 1) {
-      Mouse.click(MOUSE_LEFT);
+      Mouse.click();
     }
   }
 }
