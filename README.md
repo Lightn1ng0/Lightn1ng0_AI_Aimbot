@@ -39,15 +39,16 @@ The code does not modify the launcher config.
 ![Razer](razer.png)
 
 ## Arduino support (Tier 2 or higher only)
-- Watch this video on how to setup the arduino leonardo with usb host shield https://www.youtube.com/watch?v=NlUyUGYHMAc
-- You can use any arduino that supports the mouse library
-- You can probably also use other arduinos that are compatible with an usb host shield and have compatibility with mouse library
-- Arduino with shield is safer since the game will only see 1 mouse instead of 2
-- Download and flash MouseShield.ino or Mouse.ino file to arduino depending if you have a shield or not
+- You can use any arduino that supports the mouse library --> https://www.arduino.cc/reference/en/language/functions/usb/mouse/
+- You can make your game detect your arduino as if it was your real mouse by spoofing it or using an usb host shield --> see setup tutorials
+- Download and upload Mouse.ino or MouseShield.ino file to arduino depending if you have an usb host shield or not
 - Automatically configures com port when arduino is plugged in while launching
 - You can still manually configure the com port from the gui
-- You can test your arduino with test_arduino.py
 - Credits to https://github.com/TrevorSatori/Leonardo/tree/main
+- Thanks to duurtlang on discord for helping me out debugging Mouse.ino
+### Arduino setup tutorials
+- Setup the arduino leonardo with usb host shield https://www.youtube.com/watch?v=NlUyUGYHMAc
+- Spoof your arduino https://www.youtube.com/watch?v=CcfnBOqdLVg
 
 ## Issues
 - Converting model to onnx on amd or cpu does not work --> use the launcher to do this
