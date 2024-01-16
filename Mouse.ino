@@ -22,8 +22,6 @@ void loop() {
     delta[0] = data.substring(0, deltaXIndex).toInt();
     delta[1] = data.substring(deltaXIndex + 1, deltaYIndex).toInt();
     int click = data.substring(deltaYIndex + 1).toInt();
-
-    Serial.println(click);
       
     handleX(delta[0]);
     handleY(delta[1]);
