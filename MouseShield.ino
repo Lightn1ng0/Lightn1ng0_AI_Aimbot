@@ -114,7 +114,7 @@ void loop()
     int click = data.substring(deltaYIndex + 1).toInt();
 
     handleX(delta[0]);
-    handleY(delta[1]);
+    handleY(-delta[1]);
 
     if (click == 1) {
       Mouse.click();
