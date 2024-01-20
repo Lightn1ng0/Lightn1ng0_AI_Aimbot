@@ -1,11 +1,6 @@
 #include <hidboot.h>
 #include <usbhub.h>
 #include <Mouse.h>
-#include <Wire.h>
-#ifdef dobogusinclude
-#include <spi4teensy3.h>
-#endif
-#include <SPI.h>
 USB     Usb;
 USBHub     Hub(&Usb);
 HIDBoot < USB_HID_PROTOCOL_KEYBOARD | USB_HID_PROTOCOL_MOUSE > HidComposite(&Usb);
