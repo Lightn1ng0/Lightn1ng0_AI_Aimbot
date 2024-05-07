@@ -29,6 +29,12 @@ The code does not modify the launcher config.
 - Keybind configurator
 - Mouse input methods (default is win32api, razer, arduino)
 
+## Controller support (Tier 2 or higher only)
+- Should work with xbox controllers and playstation controllers
+- You need to install the vigem bus driver --> https://github.com/nefarius/ViGEmBus/releases/download/v1.22.0/ViGEmBus_1.22.0_x64_x86_arm64.exe
+- You will also need to install hidhide --> https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212_x64.exe
+- Setup video --> coming soon, for now ask me in discord on how to
+
 ## Razer support (Tier 2 or higher only)
 - Works only if you have a razer mouse plugged in to your computer
 - You need to install razer synapse 3 with the macro module https://www.razer.com/synapse-3
