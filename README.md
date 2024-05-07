@@ -39,7 +39,7 @@ The code does not modify the launcher config.
 ## Razer support (Tier 2 or higher only)
 - Works only if you have a razer mouse plugged in to your computer
 - You need to install razer synapse 3 with the macro module https://www.razer.com/synapse-3
-- Download this dll file and move it to `%appdata%/ai-aimbot-launcher/customCode/Lightn1ng0_AI_Aimbot/rzctl_lib` --> https://github.com/0736b/rzctl-py/raw/main/rzctl_lib/rzctl.dll
+- Download this dll file and move it to `%appdata%/ai-aimbot-launcher/customCode/Lightn1ng0_AI_Aimbot/rzctl` --> https://github.com/0736b/rzctl-py/blob/5c3b998c91f06b5fbc9471a91052e0ae0c5501e3/rzctl_lib/rzctl.dll
 - The dll file should be safe but use at your OWN risk!
 - Credits to https://github.com/0736b/rzctl-py/tree/main for the driver
 
