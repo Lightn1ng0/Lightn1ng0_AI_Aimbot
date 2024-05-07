@@ -31,7 +31,7 @@ The code does not modify the launcher config.
 
 ## Controller support (Tier 2 or higher only)
 - Should work with xbox controllers and playstation controllers
-- Select either ds4 for playstation or x360 for xbox
+- Select either dualshock for playstation or xbox for xbox
 - You need to install the vigem bus driver --> https://github.com/nefarius/ViGEmBus/releases/download/v1.22.0/ViGEmBus_1.22.0_x64_x86_arm64.exe
 - You will also need to install hidhide --> https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212_x64.exe
 - Setup video --> coming soon, for now ask me in discord on how to
