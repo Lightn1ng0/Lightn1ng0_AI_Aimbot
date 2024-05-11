@@ -47,6 +47,7 @@ The code does not modify the launcher config.
 
 ## Arduino support (Tier 2 or higher only)
 - You can use any arduino that supports the mouse library --> https://www.arduino.cc/reference/en/language/functions/usb/mouse/
+- List to buy one here --> https://docs.google.com/spreadsheets/d/1VEzH8ou9MyX5zUId5USZp7kFP-7_YiLcAGa4o8niIM4/edit?usp=sharing
 - You can make your game detect your arduino as if it was your real mouse by spoofing it or using an usb host shield --> see setup tutorials
 - Download and upload Mouse.ino or MouseShield.ino file to arduino depending if you have an usb host shield or not
 - Automatically configures com port when arduino is plugged in while launching
