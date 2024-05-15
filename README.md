@@ -50,7 +50,8 @@ https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212
 - You can use any arduino that supports the mouse library -->  
 https://docs.google.com/spreadsheets/d/1VEzH8ou9MyX5zUId5USZp7kFP-7_YiLcAGa4o8niIM4/edit?usp=sharing
 - You can use an usb host shield if you want
-- Download and upload Mouse.ino or MouseShield.ino file to arduino depending if you have an usb host shield or not
+- Download and upload Mouse.ino to arduino
+- Download and upload MouseShield.ino to arduino if using usb host shield
 - Automatically tries to find the arduino com port when starting (you can still manually configure it)
 - Credits to https://github.com/TrevorSatori/Leonardo/tree/main (for a huge part of the Mouse.ino)
 - Thanks to duurtlang on discord for helping me out debugging Mouse.ino (Because I don't have an arduino myself)
