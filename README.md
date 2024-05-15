@@ -33,7 +33,7 @@ https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212
 - Setup video --> coming soon, for now ask me in discord on how to
 
 <p align="center">
-  <img src="imgs/dualshock.png" height="320px" />
+  <img src="imgs/dualshock.png" height="250px" />
 </p>
 
 ## Razer support
@@ -42,7 +42,7 @@ https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212
 - Credits to https://github.com/0736b/rzctl-py/tree/main for the driver and the python file for it
 
 <p align="center">
-  <img src="imgs/razersetup.png" height="320px" />
+  <img src="imgs/razersetup.png" height="250px" />
   <img src="imgs/razer.png" width="75%" />
 </p>
 
@@ -56,7 +56,7 @@ https://docs.google.com/spreadsheets/d/1VEzH8ou9MyX5zUId5USZp7kFP-7_YiLcAGa4o8ni
 - Thanks to duurtlang on discord for helping me out debugging Mouse.ino (Because I don't have an arduino myself)
 
 <p align="center">
-  <img src="imgs/arduino.png" height="320px" />
+  <img src="imgs/arduino.png" height="250px" />
 </p>
 
 ## Issues
