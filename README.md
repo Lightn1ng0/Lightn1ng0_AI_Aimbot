@@ -2,7 +2,7 @@
 Free AI Aimbot for any game
 
 <p align="center">
-  <img src="imgs/preview.png" height="400px" />
+  <img src="imgs/preview.png" widht="100%" />
 </p>
 
 ## Features
@@ -42,8 +42,8 @@ https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212
 - Credits to https://github.com/0736b/rzctl-py/tree/main for the driver and the python file for it
 
 <p align="center">
-  <img src="imgs/razersetup.png" height="250px" />
-  <img src="imgs/razer.png" width="75%" />
+  <img src="imgs/razersetup.png" width="10%" />
+  <img src="imgs/razer.png" width="85%" />
 </p>
 
 ## Arduino support
