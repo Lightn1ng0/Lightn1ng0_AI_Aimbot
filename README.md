@@ -1,5 +1,5 @@
 # Lightn1ng0_AI_Aimbot
-Free AI Aimbot for any game  
+Free AI Aimbot that works for every game in existence  
 WARNING: I DO NOT RECOMMEND YOU TO USE THIS TO GAIN AN UNFAIR ADVANTAGE IN ANY GAME  
 THIS PROJECT WAS MADE FOR EDUCATIONAL PURPOSES ONLY
 
