@@ -1,6 +1,6 @@
 # Lightn1ng0_AI_Aimbot
 Free AI Aimbot that works for every game in existence!  
-Download: [https://github.com/Lightn1ng0/Lightn1ng0_AI_Aimbot/releases/download/1.0/Lightn1ng0_AI_Aimbot.zip](https://github.com/Lightn1ng0/Lightn1ng0_AI_Aimbot/releases/download/1.0/Lightn1ng_AI_Aimbot_Release-1.0.zip)  
+Download: https://github.com/Lightn1ng0/Lightn1ng0_AI_Aimbot/releases/download/1.1/Lightn1ng_AI_Aimbot_Release-1.1.zip
 Setup video --> coming soon!  
 Support discord --> coming soon!
 
