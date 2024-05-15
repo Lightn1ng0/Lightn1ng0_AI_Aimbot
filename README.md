@@ -42,8 +42,8 @@ https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212
 - Credits to https://github.com/0736b/rzctl-py/tree/main for the driver and the python file for it
 
 <p align="center">
-  <img src="imgs/razersetup.png" width="10%" />
-  <img src="imgs/razer.png" width="85%" />
+  <img src="imgs/razersetup.png" width="20%" />
+  <img src="imgs/razer.png" width="75%" />
 </p>
 
 ## Arduino support
