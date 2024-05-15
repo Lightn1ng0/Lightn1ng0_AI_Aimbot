@@ -29,6 +29,8 @@ I AM NOT RESPONSIBLE FOR ANY GAME ACCOUNT BANS THAT HAPPEN WHEN USING THIS PROGR
 - Model size (detection area)
 - Inference modes: pytorch (cpu), onnx (cpu, directml = any gpu), openvino (cpu, intel gpu) and tensorrt (nvidia gpu)
 - No restart needed to apply settings
+- Apex and fortnite model for yolov5 included (thanks to taipeiuser on discord for the fortnite model)
+- Different mouse input methods --> see below
 
 ## Controller support
 - Should work with xbox controllers and playstation controllers (if lucky, maybe a generic one would work)
