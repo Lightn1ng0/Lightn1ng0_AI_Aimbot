@@ -1,5 +1,7 @@
 # Lightn1ng0_AI_Aimbot
 Free AI Aimbot for any game
+WARNING: I DO NOT RECOMMEND YOU TO USE THIS TO GAIN AN UNFAIR ADVANTAGE IN ANY GAME
+THIS PROJECT WAS MADE FOR EDUCATIONAL PURPOSES ONLY
 
 <p align="center">
   <img src="imgs/preview.png" widht="100%" />
