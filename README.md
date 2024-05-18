@@ -39,7 +39,7 @@ I AM NOT RESPONSIBLE FOR ANY GAME ACCOUNT BANS THAT HAPPEN WHEN USING THIS PROGR
 https://github.com/nefarius/ViGEmBus/releases/download/v1.22.0/ViGEmBus_1.22.0_x64_x86_arm64.exe
 - You will also need to install hidhide -->  
 https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212_x64.exe
-- Setup video --> coming soon!
+- Setup video --> https://www.youtube.com/watch?v=SKdIwut7B2s
 
 <p align="center">
   <img src="imgs/dualshock.png" height="250px" />
