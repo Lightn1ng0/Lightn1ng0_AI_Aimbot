@@ -1,7 +1,7 @@
 # Lightn1ng0_AI_Aimbot
 Free AI Aimbot that works for every game in existence!  
 Download: https://github.com/Lightn1ng0/Lightn1ng0_AI_Aimbot/releases/download/2.5/Lightn1ng0_AI_Aimbot_Setup.exe  
-Setup video --> https://www.youtube.com/watch?v=MukvEr-iq44  
+Setup video --> https://www.youtube.com/watch?v=kCqDoDvUKDI  
 Support discord --> https://discord.com/invite/6wdzWT6BzH
 
 WARNING: I DO NOT RECOMMEND YOU TO USE THIS TO GAIN AN UNFAIR ADVANTAGE IN ANY GAME  
@@ -39,7 +39,7 @@ I AM NOT RESPONSIBLE FOR ANY GAME ACCOUNT BANS THAT HAPPEN WHEN USING THIS PROGR
 https://github.com/nefarius/ViGEmBus/releases/download/v1.22.0/ViGEmBus_1.22.0_x64_x86_arm64.exe
 - You will also need to install hidhide -->  
 https://github.com/nefarius/HidHide/releases/download/v1.5.212.0/HidHide_1.5.212_x64.exe
-- Setup video --> https://www.youtube.com/watch?v=SKdIwut7B2s
+- Setup video --> https://www.youtube.com/watch?v=3GmX0JIN7r8
 
 <p align="center">
   <img src="imgs/dualshock.png" height="250px" />
