@@ -1,1 +1,3 @@
 # Lightn1ng0_AI_Aimbot
+
+NEW UPDATES COMING SOON
